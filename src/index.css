@@ -1,0 +1,31 @@
+.layout {
+    min-height: 100vh;
+}
+
+.content {
+    padding: 16px;
+    margin-top: 64px; /* Adjust this value based on your navbar height */
+}
+
+.video-row {
+    margin: 0 -8px; /* Compensate for the gutter */
+}
+
+/* Ensure the layout takes full width */
+.ant-layout {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Adjust card width to fit grid better */
+.ant-card {
+    width: 100% !important;
+}
+
+/* Optional: Add some responsive padding */
+@media (max-width: 576px) {
+    .content {
+        padding: 8px;
+    }
+}
